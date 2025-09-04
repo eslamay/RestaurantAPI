@@ -25,17 +25,18 @@ This project serves as a **backend** for a restaurant management web application
 
 ## 🏗️ Project Structure  
 
-├── Restaurants.API
-│ └── Entry point (controllers, middleware, dependency injection)
+
+├─ Restaurants.API
+│ └─ Entry point (controllers, middleware, dependency injection)
 │
-├── Restaurants.Application
-│ └── Application logic (CQRS, handlers, validators, DTOs)
+├─ Restaurants.Application
+│ └─ Application logic (CQRS, handlers, validators, DTOs)
 │
-├── Restaurants.Domain
-│ └── Core entities, value objects, domain events, enums
+├─ Restaurants.Domain
+│ └─ Core entities, value objects, domain events, enums
 │
-└── Restaurants.Infrastructure
-└── EF Core, persistence, repositories, identity, external services
+└─ Restaurants.Infrastructure
+└─ EF Core, persistence, repositories, identity, external services
 
 ---
 
